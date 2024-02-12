@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
             <Link className="no-underline text-blue-300" href="/books">探す</Link>
           </li>
           <li className="block px-7 py-2 my-1 hover:bg-gray-100 rounded">
-            <Link className="no-underline text-blue-300" href="https://wing.msn.to/">サポートページ</Link>
+            <Link className="no-underline text-blue-300" href="/contact" >お問い合わせ</Link>
           </li>
         </ul>
       

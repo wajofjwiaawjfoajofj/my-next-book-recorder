@@ -10,7 +10,7 @@ export default function BookDetail({index,book}){
         <div>
         {/* 書籍情報をリスト表示　(index属性が表示されたら連番も表示)。 */}
         <ul className="list-none text-black ml-4">
-         <li>{index && index + '+'}</li>
+         <li>{index}</li>
          <li>{book.title}({book.price}円)</li>
          <li>{book.author}</li>
          <li>{book.publisher}刊</li>

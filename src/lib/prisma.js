@@ -2,6 +2,7 @@ import { PrismaClient } from "@prisma/client";
 
 //prismaのクライアントオブジェクトを設定する
 
+
 //global.prisma上にprismaクライアントが存在すれば再利用
 const prisma = global.prisma ?? new PrismaClient({log : ['query']});
 

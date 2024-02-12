@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+//アプリ全体の外枠を定義するルート
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

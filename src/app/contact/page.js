@@ -36,6 +36,17 @@ const page = () => {
           />
           <div>{errors.name?.message}</div>
         </div>
+        <div>
+          <label htmlFor='name'>メールアドレス:</label>
+          <input
+            id='email'
+            type="text"
+            {...register('email', {
+              required: '名前は必須です（フルネームでお願いします。）',
+            })}
+          />
+          <div>{errors.email?.message}</div>
+        </div>
       </form>
     </div>
   );

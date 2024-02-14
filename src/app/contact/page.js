@@ -35,6 +35,7 @@ const page = () => {
             })}
           />
           <div>{errors.name?.message}</div>
+          <p>梶岡はあほ</p>
         </div>
       </form>
     </div>
